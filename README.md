@@ -1,4 +1,4 @@
-# Qt-Assignment-01
+# Qt-Assignment
 
 ## Header files(.h) : 
 ### Point3D.h
@@ -45,3 +45,10 @@ This code defines the write function within the Writer class. It takes a Triangu
 `main.cpp`
 
 This main function essentially launches the Qt application, creating an OpenGL window for rendering. It starts the event loop by calling app.exec(), which allows the application to respond to user input and perform rendering tasks. 
+
+## Output : 
+![01](https://github.com/suraj-soni-04/Qt-Assignment-01/assets/154866411/69975c6a-f389-411a-8018-0420a77b03ca)
+
+![02](https://github.com/suraj-soni-04/Qt-Assignment-01/assets/154866411/2c7ad287-1687-4df3-bb26-a034c9ed4af8)
+
+
