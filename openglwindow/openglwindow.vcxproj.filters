@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="openglwindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3D.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Writer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point3D.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleWindow.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Writer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulation.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt" />
+    <CustomBuild Include="release\moc_predefs.h.cbt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ba018e66-4fa3-41d9-98ba-35e69c4cbb64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{ba8d79d7-99b5-474d-b59f-1fdadede05f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="openglwindow.h">
+      <Filter>headers</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
